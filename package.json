@@ -1,6 +1,6 @@
 {
   "name": "array-typeof-values",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Gets the most specific common type of all the values in an array",
   "main": "index.js",
   "scripts": {
