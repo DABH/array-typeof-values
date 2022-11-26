@@ -13,27 +13,23 @@ module.exports = function arrayTypeOfValues(array) {
     return undefined;
   }
 
-  var types = [];
-
-  array.map(
+  var types = array.map(
     function(value)
     {
-       if (typeof value === 'undefined')
-       {
-         types.push('undefined');
-       }
-       else if (value.constructor === Array)
-       {
-         types.push('array');
-       }
-       else if (typeof value === 'object')
-       {
-         types.push(value === null ? 'null' : 'object');
-       }
-       else
-       {
-         types.push(typeof value);
-       }
+      if (typeof value === 'undefined')
+      {
+        return 'undefined';
+      }
+      if (value.constructor === Array)
+      {
+        return 'array';
+      }
+      if (typeof value === 'object')
+      {
+        return value === null ? 'null' : 'object';
+      }
+
+      return typeof value;
     }
   );
 
