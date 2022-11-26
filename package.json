@@ -24,6 +24,6 @@
   "homepage": "https://github.com/DABH/array-typeof-values#readme",
   "devDependencies": {
     "chai": "^4.3.4",
-    "mocha": "^8.4.0"
+    "mocha": "^10.1.0"
   }
 }
