@@ -7,10 +7,8 @@ For maintenance and software consulting inquiries: [hello@dabh.llc](mailto:hello
 
 Written by David Hyde (DABH). Available under the [MIT license](LICENSE).
 
-[![Build Status](https://travis-ci.org/DABH/array-typeof-values.svg?branch=master)](https://travis-ci.org/DABH/array-typeof-values)
+[![CI](https://github.com/DABH/array-typeof-values/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/DABH/array-typeof-values/actions/workflows/ci.yml)
 [![version](https://img.shields.io/npm/v/array-typeof-values.svg)](https://www.npmjs.org/package/array-typeof-values)
-[![dependencies](https://david-dm.org/DABH/array-typeof-values.svg)](https://david-dm.org/DABH/array-typeof-values)
-[![devDependencies](https://david-dm.org/DABH/array-typeof-values/dev-status.svg)](https://david-dm.org/DABH/array-typeof-values#info=devDependencies)
 
 _Gets the most specific common type of all the values in an array_
 
