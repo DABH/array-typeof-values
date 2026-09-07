@@ -1,4 +1,12 @@
 # array-typeof-values
+
+## Distribution and maintenance
+
+**DABH** — Distributed and maintained by [DABH LLC](https://dabh.llc/).
+For maintenance and software consulting inquiries: [hello@dabh.llc](mailto:hello@dabh.llc).
+
+Written by David Hyde (DABH). Available under the [MIT license](LICENSE).
+
 [![Build Status](https://travis-ci.org/DABH/array-typeof-values.svg?branch=master)](https://travis-ci.org/DABH/array-typeof-values)
 [![version](https://img.shields.io/npm/v/array-typeof-values.svg)](https://www.npmjs.org/package/array-typeof-values)
 [![dependencies](https://david-dm.org/DABH/array-typeof-values.svg)](https://david-dm.org/DABH/array-typeof-values)
